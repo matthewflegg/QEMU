@@ -3,7 +3,7 @@
     Creates or starts an Arch Linux virtual machine.
     
 .DESCRIPTION
-    Creates an Arch Linux virtual machine using QEMU, or starts and existing
+    Creates an Arch Linux virtual machine using QEMU, or starts an existing
     instance if this script was already used to initialize one.
 
     Prerequisites:
@@ -12,6 +12,7 @@
     - QEMU is installed and working on your Windows 10/11 system (1).
     - Virtualization (Intel VT-d, AMD-V) is enabled in BIOS/UEFI.
     - Minimum 30G disk space on your primary storage device.
+    - You have downloaded an Arch Linux ISO.
 
     Instructions:
     -------------
